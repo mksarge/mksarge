@@ -29,5 +29,7 @@ Deploy with Firebase: https://github.com/kriasoft/react-static-boilerplate#how-t
 
 ### License
 
+[react-static-boilerplate](https://github.com/kriasoft/react-static-boilerplate): Copyright © 2015-present Kriasoft, LLC
+
 This source code is licensed under the MIT license found in the
 [LICENSE.txt](https://github.com/mksarge/mksarge-io/LICENSE.txt) file.
