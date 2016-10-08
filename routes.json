@@ -14,7 +14,15 @@
     "page": "./pages/about"
   },
   {
-    "path": "/tasks/:status(pending|completed)?",
-    "page": "./pages/home"
+    "path": "/projects/classportal",
+    "page": "./pages/projects/classportal"
+  },
+  {
+    "path": "/projects/kicass",
+    "page": "./pages/projects/kicass"
+  },
+  {
+    "path": "/projects/finescrubbing",
+    "page": "./pages/projects/finescrubbing"
   }
 ]

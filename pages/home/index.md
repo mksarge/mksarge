@@ -12,21 +12,21 @@ I'm Michael, a computer engineering undergrad at the University of British Colum
 
 ### &nbsp; BLOG &nbsp;
 
-#### [Building an authenticated REST API][blog1]
+##### [Building an authenticated REST API][blog1]
 
-#### [Working with React Static Boilerplate][blog2]
+##### [Working with React Static Boilerplate][blog2]
 
-#### [Thoughts on Typescript][blog3]
+##### [Thoughts on Typescript][blog3]
 
 <hr>
 
 ### &nbsp; PROJECTS &nbsp;
 
-#### [UBC ClassPortal][classportal] - Course management system
+##### [UBC ClassPortal][classportal] - Course management system
 
-#### [KiCASS][kicass] - Kinect-Controlled Artistic Sensing System
+##### [KiCASS][kicass] - Kinect-Controlled Artistic Sensing System
 
-#### [Fine Scrubbing][finescrubbing] - iOS-style "fine scrubbing" for desktop video
+##### [Fine Scrubbing][finescrubbing] - iOS-style "fine scrubbing" for desktop video
 
 <hr>
 
@@ -43,10 +43,10 @@ The source code can be found on [GitHub][source].
 [blog1]: <blog/1>
 [blog2]: <blog/2>
 [blog3]: <blog/3>
-[classportal]: <https://github.com/ubccpsc/classportal/>
-[kicass]: <https://github.com/nbzzzz/kicass>
+[classportal]: <projects/classportal/>
+[kicass]: <projects/kicass/>
 [boilerplate-mksarge]: <https://github.com/mksarge/react-static-boilerplate>
-[finescrubbing]: <https://github.com/mksarge/fine-scrubbing>
+[finescrubbing]: <projects/finescrubbing/>
 [boilerplate]: <https://github.com/kriasoft/react-static-boilerplate-one-dark>
 [onedark]: <https://github.com/atom/one-dark-ui>
 [source]: <https://github.com/mksarge/mksarge.io>
