@@ -8,10 +8,12 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-@media screen and (max-width: 1024px) {
+.content {
+  padding: 0 12%;
+}
 
+@media screen and (min-width: 800px) {
   .content {
-    padding: 0 16px;
+    padding: 0 25%;
   }
-
 }
