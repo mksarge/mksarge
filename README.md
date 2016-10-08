@@ -1,8 +1,6 @@
 ### About
 
-This is a clone of https://github.com/kriasoft/react-static-boilerplate.
-I removed the integration with Material Design Lite and inserted my own custom css sheets, which
-include a colour scheme inspired by One Dark UI theme for Atom text editor.
+React Static Boilerplate was used as a template for this site. 
 
 > [**React Static Boilerplate**](https://github.com/kriasoft/react-static-boilerplate) (RSB) is an
 > opinionated boilerplate and tooling for creating modern stand-alone web applications (aka
@@ -19,17 +17,18 @@ include a colour scheme inspired by One Dark UI theme for Atom text editor.
 > [Babel](http://babeljs.io/), [Webpack](https://webpack.github.io/), [Browsersync](https://browsersync.io/),
 > [React Hot Loader](http://gaearon.github.io/react-hot-loader/) and more.
 
-### Install Instructions
+I removed the integration with Material Design Lite and inserted my own custom css, which
+includes a colour scheme inspired by [One Dark UI](https://github.com/atom/one-dark-ui) theme for Atom text editor.
+
+### Install
 
 https://github.com/kriasoft/react-static-boilerplate#getting-started
 
-### Deploy Instructions
+### Deploy
 
 Deploy with Firebase: https://github.com/kriasoft/react-static-boilerplate#how-to-deploy
 
 ### License
 
-[react-static-boilerplate](https://github.com/kriasoft/react-static-boilerplate): Copyright © 2015-present Kriasoft, LLC
-
 This source code is licensed under the MIT license found in the
-[LICENSE.txt](https://github.com/mksarge/mksarge-io/LICENSE.txt) file.
+[LICENSE.txt](https://github.com/mksarge/mksarge/LICENSE.txt) file.
