@@ -17,9 +17,9 @@ const webpack = require('webpack');
 
 // TODO: Update configuration settings
 const config = {
-  title: 'React Static Boilerplate (One Dark)',
-  url: 'https://github.com/mksarge/react-static-boilerplate-onedark',          // Your website URL
-  project: 'rsb-onedark',
+  title: 'Michael Sargent',
+  url: 'www.mksarge.com',
+  project: 'mksarge-c64b2',
   trackingID: '',                 // Google Analytics Site's ID
 };
 
