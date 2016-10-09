@@ -20,5 +20,5 @@ Admins can update classlists, assign grades, and initiate Github project creatio
 <br><br>
 
 [github]: <https://github.com/ubccpsc/classportal/>
-[demo]: <skaha.cs.ubc.ca:8020>
+[demo]: <http://skaha.cs.ubc.ca:8020>
 [blog]: <../../blog/classportal> 

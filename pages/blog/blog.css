@@ -1,0 +1,12 @@
+.page {
+  margin: 50px 10%;
+}
+
+.markdown {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.markdown p, h5, h4 {
+  text-align: left;
+}
