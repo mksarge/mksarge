@@ -2,7 +2,7 @@
 title: Michael Sargent
 ---
 
-## mksarge.io
+## mksarge.com
 
 I'm Michael, a computer engineering undergrad at the University of British Columbia.
 <br>
@@ -49,4 +49,4 @@ The source code can be found on [GitHub][source].
 [finescrubbing]: <projects/finescrubbing/>
 [boilerplate]: <https://github.com/kriasoft/react-static-boilerplate-one-dark>
 [onedark]: <https://github.com/atom/one-dark-ui>
-[source]: <https://github.com/mksarge/mksarge.io>
+[source]: <https://github.com/mksarge/mksarge>

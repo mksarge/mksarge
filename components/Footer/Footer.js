@@ -13,7 +13,7 @@ import s from './Footer.css';
 
 function Footer() {
   return (
-     <footer className={s.footer}>
+    <footer className={s.footer}>
       <p>© Michael Sargent 2016</p>
     </footer>
   );
