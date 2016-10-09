@@ -20,8 +20,10 @@ Learn more about UBC IMPART and get updates from the KiCASS team on the IMPART b
 
 <br> 
 
-[Github][github] | [Blog][blog] | [Demo][demo]
+[GitHub][github] | [UBC IMPART][impart]
+
+<br><br>
 
 [github]: <https://github.com/nbzzzz/kicass>
-[blog]: <../blog/kicass>
-[demo]: <>
+[impart]: <https://ubcimpart.wordpress.com>
+[blog]: <../../blog/kicass>

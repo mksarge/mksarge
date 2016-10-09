@@ -7,14 +7,18 @@ title: Michael Sargent | ClassPortal
 
 <br> 
 
-ClassPortal is a dynamic system for classroom management. ClassPortal helps students register for the class, associate their Github credentials, create project teams, submit documents (e.g., PDF and Zip), and view their grades. Admins can update classlists, assign grades, and initiate Github project creation code.
+ClassPortal is a dynamic system for classroom management. ClassPortal helps students register for the class, associate their Github credentials, create project teams, submit documents (e.g., PDF and Zip), and view their grades.
 
 <br> 
 
-[Github][github] | [Blog][blog] | [Demo][demo]
+Admins can update classlists, assign grades, and initiate Github project creation code.
 
-<br> <br> <br> 
+<br> 
+
+[GitHub][github] | [Demo][demo] | [Blog][blog] 
+
+<br><br>
 
 [github]: <https://github.com/ubccpsc/classportal/>
-[blog]: <../blog/classportal>
-[demo]: <skaha.cs.ubc.ca:8020> 
+[demo]: <skaha.cs.ubc.ca:8020>
+[blog]: <../../blog/classportal> 

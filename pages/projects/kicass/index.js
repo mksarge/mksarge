@@ -10,7 +10,7 @@
 
 import React from 'react';
 import Layout from '../../../components/Layout';
-import s from '../../home/styles.css';
+import s from '../projects.css';
 import { title, html } from './index.md';
 import pic from './classportal.jpg';
 
@@ -22,11 +22,11 @@ class ProjectsPage extends React.Component {
 
   render() {
     return (
-      <Layout className={s.content}>
+      <Layout className={s.page}>
         <br /><br />
-        <img src={pic} alt=" " height="300" />
+        <img className={s.image} src={pic} alt=" " height="700" />
         <br /><br />
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div className={s.markdown} dangerouslySetInnerHTML={{ __html: html }} />
       </Layout>
     );
   }

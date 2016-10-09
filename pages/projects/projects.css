@@ -1,0 +1,29 @@
+.page {
+  padding: 50px 10%;
+  overflow: auto;
+}
+
+.image {
+  display: none;
+}
+
+.markdown p {
+  text-align: left;
+}
+
+@media screen and (min-width: 1000px) {
+  .image {
+    float: left;
+    display: block;
+    height: auto;
+    max-width:35%;
+    max-height: 700px;
+    padding: 0 5%;
+  }
+
+  .markdown {
+    float: left;
+    max-width: 55%;
+  }
+
+}
