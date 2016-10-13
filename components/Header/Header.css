@@ -1,0 +1,59 @@
+.header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  height:30px;
+  width: 100%;
+} .header a {
+  font-size: 0.9em;
+  color: #bfc8da;
+  font-weight: normal;
+}
+@media screen and (min-width: 400px) {
+  .header {
+    height:35px;
+  } .header a {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 500px) {
+  .header {
+    height:40px;
+  } .header a {
+    font-size: 1.3em;
+  }
+}
+
+.bar1 {
+  position:relative;
+  height:5%;
+  width: 25%;
+  background-color: #a9ee8a;
+}
+
+.bar2 {
+  position:relative;
+  top:-5%;
+  left:25%;
+  height:5%;
+  width: 25%;
+  background-color: #56b6c2;
+}
+
+.bar3 {
+  position:relative;
+  top:-10%;
+  left:50%;
+  height:5%;
+  width: 25%;
+  background-color: #d0a680;
+}
+
+.bar4 {
+  position:relative;
+  top:-15%;
+  left:75%;
+  height:5%;
+  width: 25%;
+  background-color: #e06C75;
+}
