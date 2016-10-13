@@ -1,13 +1,24 @@
 .footer {
   position: absolute;
+  width: 100%;
+  height: auto;
   bottom:0;
   padding: 0;
-  margin: 0;
-  height: auto;
-  width: 100%;
-  background-color: #5c667a;
+  margin: 0 auto;
   color: #ddddff;
   text-align: center;
 } .footer p {
-  line-height: 1.5em;
+  font-weight: bold;
+} .footer a {
+  font-weight: normal;
+}
+
+.bar {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #4c566a;
+  text-align: center;
 }

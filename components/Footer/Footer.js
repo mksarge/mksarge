@@ -14,7 +14,8 @@ import s from './Footer.css';
 function Footer() {
   return (
     <footer className={s.footer}>
-      <p>© Michael Sargent 2016</p>
+      <div className={s.bar} />
+      <p>© Michael Sargent 2016.&nbsp;<a href="https://github.com/mksarge/mksarge">&#8594;</a></p>
     </footer>
   );
 }
