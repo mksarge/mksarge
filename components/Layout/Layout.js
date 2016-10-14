@@ -8,20 +8,18 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React, { PropTypes } from 'react';
+import React from 'react';
 import Footer from '../Footer';
+import Header from '../Header';
 import s from './Layout.css';
 
 class Layout extends React.Component {
-
-  static propTypes = {
-    className: PropTypes.string,
-  };
 
   render() {
     return (
       <div className={s.container} >
         <div className={s.content}>
+          <Header />
           <div {...this.props} />
         </div>
         <Footer />

@@ -11,13 +11,34 @@
 .container {
   position: relative;
   min-height:100%;
+
 }
 
 .content {
   position:relative;
   height: auto;
-  width: 100%;
+  width: 80%;
+  padding: 15px 10% 60px 10%;
   margin: 0;
-  padding: 0;
   text-align: center;
+}
+
+.content h5 {
+  font-size: 0.01em;
+} .content h5 > a {
+  font-size: 120em;
+}
+@media screen and (min-width: 500px) {
+  .content h5 {
+    font-size: 1em;
+  } .content h5 > a {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    width: 800px;
+    margin: 0 auto;
+  }
 }
