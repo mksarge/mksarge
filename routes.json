@@ -14,6 +14,10 @@
     "page": "./pages/about"
   },
   {
+    "path": "/projects",
+    "page": "./pages/projects"
+  },
+  {
     "path": "/projects/classportal",
     "page": "./pages/projects/classportal"
   },
@@ -24,6 +28,10 @@
   {
     "path": "/projects/finescrubbing",
     "page": "./pages/projects/finescrubbing"
+  },
+  {
+    "path": "/blog",
+    "page": "./pages/blog"
   },
   {
     "path": "/blog/classportal",
