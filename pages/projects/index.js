@@ -16,32 +16,29 @@ import Link from '../../components/Link';
 
 class HomePage extends React.Component {
 
-  constructor(props, context) {
-    super(props, context);
-    this.editHtml = this.editHtml.bind(this);
-    this.state = {
-      newHtml: this.editHtml(html),
-    };
-  }
-
   componentDidMount() {
     document.title = title;
-    // const asdf = ;
-    // this.setState({ newHtml: asdf });
-  }
-
-  editHtml(input) {
-    // console.log(input);
-    const output1 = input.toString().replace(/a href/gi, '<Link to');
-    const output2 = output1.toString().replace(/\/a/gi, '/Link');
-    // console.log(output3);
-    return output2;
   }
 
   render() {
     return (
-      <Layout>
-        <div className={s.projects} dangerouslySetInnerHTML={{ __html: html }} />
+      <Layout className={s.projects}>
+        <br />
+        <h1>PROJECTS</h1>
+        <hr />
+        <h2>In-Progress</h2>
+        <h3><Link to="/projects/classportal">UBC ClassPortal</Link>
+          &nbsp;-&nbsp;Course management system
+        </h3>
+        <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link>
+          &nbsp;-&nbsp;iOS-style "fine scrubbing" for desktop video
+        </h3>
+        <hr />
+        <h2>Completed</h2>
+        <h3>
+          <Link to="/projects/kicass">KiCASS</Link>
+          &nbsp;-&nbsp;Kinect-Controlled Artistic Sensing System
+        </h3>
       </Layout>
     );
   }
@@ -49,3 +46,5 @@ class HomePage extends React.Component {
 }
 
 export default HomePage;
+
+// <div className={s.projects} dangerouslySetInnerHTML={{ __html: html }} />

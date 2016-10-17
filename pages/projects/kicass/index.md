@@ -6,7 +6,13 @@ title: Michael Sargent | KiCASS
 
 ## Kinect-Controlled Artistic Sensing System
 
-<br>
+<hr>
+
+<iframe id="myFrame" src="https://www.youtube.com/embed/1gVW2csSEds" frameborder="0" allowfullscreen></iframe>
+
+<br> 
+
+<hr>
 
 ### Background
 
@@ -21,7 +27,7 @@ KiCASS was developed in collaboration with the Laptop Orchestra by myself and
 5 other students as our final year project for the 2015-2016 [ECE Capstone][capstone]
 course.
 
-<br>
+<hr>
 
 ### Problem
 
@@ -34,7 +40,7 @@ skeletal tracking system.
 This system was to stream the requested joint data to a [Max/MSP][max] client program for
 the real-time manipulation of music/audio tracks.
 
-<br>
+<hr>
 
 ### Solution
 
@@ -47,24 +53,18 @@ to the Max client over UDP.
 
 The Max client. 
 
-<br>
+<hr>
 
 ### Result
 
 Together with the Laptop Orchestra, our Capstone group travelled to Huddersfield, England, to
 participage in the [Electric Spring][electric] festival where we performed two pieces using KiCASS. 
 
-<br>
-
-<iframe id="myFrame" src="https://www.youtube.com/embed/1gVW2csSEds" frameborder="0" allowfullscreen></iframe>
-
-<br> 
-
-<br>
+<hr>
 
 ### Links
 
-[GitHub][github] | [IMPART Blog][impart] | [YouTube][youtube] | [Campus Publication][news]
+[GitHub][github] | [IMPART Blog][impart] | [Campus Publication][news] | [YouTube][youtube]
 
 [laptop]: <http://music.ubc.ca/student-ensembles/laptop-orchestra/>
 [capstone]: <https://www.ece.ubc.ca/courses/capstones>

@@ -1,3 +1,7 @@
-.projectpage p, h3 {
+.projectpage h1, .projectpage h2 {
+  text-align: center;
+}
+
+.projectpage p, .projectpage h3 {
   text-align: left;
 }

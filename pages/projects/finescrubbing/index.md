@@ -6,7 +6,7 @@ title: Michael Sargent | Fine Scrubbing
 
 ## iOS-style "fine scrubbing" for html video
 
-<br>
+<hr>
 
 ### Background
 
@@ -21,7 +21,7 @@ in other video controls such as @@@@ and video overlays, but there has not been 
 innovation in modern implementations of video player scroll bars, with one exception:
 Apple iOS audio/video players.
 
-<br>
+<hr>
 
 ### Problem
 
@@ -44,7 +44,7 @@ iOS fine scrubbing is a modern and well-designed solution for the accessibility 
 above, and I view it a tragedy that no similar or inspired designs can be found on other popular
 platforms!
 
-<br> 
+<hr> 
 
 ### Solution
 
@@ -56,7 +56,7 @@ I aim to
 
 - research/create different designs for different scenarios (phone/tablet/desktop; touchscreen/touchpad/mouse)
 
-<br> 
+<hr> 
 
 ### Links
 

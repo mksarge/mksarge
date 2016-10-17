@@ -1,10 +1,5 @@
-.page {
-  padding: 50px 10%;
-}
-
-.projects {
-  max-width: 800px;
-  margin: 0 auto;
+.projects h1, .projects h2, .projects h3, .projects p, {
+  text-align: center;
 }
 
 .projects h3 {
