@@ -21,8 +21,8 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <Layout className={s.page} >
-        <div className={s.markdown} dangerouslySetInnerHTML={{ __html: html }} />
+      <Layout>
+        <div className={s.blogpage} dangerouslySetInnerHTML={{ __html: html }} />
       </Layout>
     );
   }

@@ -28,5 +28,14 @@
   {
     "path": "/projects/finescrubbing",
     "page": "./pages/projects/finescrubbing"
+  },
+  {
+    "path": "/blog",
+    "page": "./pages/blog"
+  },
+  {
+    "path": "/blog/classportal",
+    "page": "./pages/blog/classportal"
   }
 ]
+
