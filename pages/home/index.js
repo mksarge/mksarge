@@ -10,8 +10,9 @@
 
 import React from 'react';
 import Layout from '../../components/Layout';
-import s from './styles.css';
+import s from './index.css';
 import { title, html } from './index.md';
+import Link from '../../components/Link';
 
 class HomePage extends React.Component {
 
@@ -21,10 +22,32 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <Layout className={s.content}>
-        <br /><br />
+      <Layout className={s.home}>
         <img src="./profile.png" alt=" " height="200" />
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <h1>Michael Sargent</h1>
+        <p>
+          I'm Michael, a computer engineering undergrad at the University of British Columbia.
+          <br />
+          <a href="https://github.com/mksarge" target="_blank" >Github</a>
+          &nbsp;|&nbsp;
+          <a href="mailto:michaelksarge@gmail.com">Email</a>
+        </p>
+        <hr />
+        <h2><Link to="/blog">BLOG</Link></h2>
+        <h3><Link to="/blog/0">Building ClassPortal</Link></h3>
+        <h3><Link to="/blog/1">React Static Boilerplate</Link></h3>
+        <h3><Link to="/blog/2">REST Authentication</Link></h3>
+        <hr />
+        <h2><Link to="/projects">PROJECTS</Link></h2>
+        <h3><Link to="/projects/classportal">UBC ClassPortal</Link>
+          &nbsp;-&nbsp;Course management system
+        </h3>
+        <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link>
+          &nbsp;-&nbsp;iOS-style "fine scrubbing" for desktop video
+        </h3>
+        <h3><Link to="/projects/kicass">KiCASS</Link>
+          &nbsp;-&nbsp;Kinect-Controlled Artistic Sensing System
+        </h3>
       </Layout>
     );
   }
@@ -32,3 +55,5 @@ class HomePage extends React.Component {
 }
 
 export default HomePage;
+
+// <div className={s.home} dangerouslySetInnerHTML={{ __html: html }} />

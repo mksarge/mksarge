@@ -1,8 +1,8 @@
 ---
-title: Michael Sargent
+title: Michael Sargent | Home
 ---
 
-## mksarge.com
+# Michael Sargent
 
 I'm Michael, a computer engineering undergrad at the University of British Columbia.
 <br>
@@ -10,43 +10,21 @@ I'm Michael, a computer engineering undergrad at the University of British Colum
 
 <hr>
 
-### &nbsp; BLOG &nbsp;
+## [BLOG](/blog)
 
-##### [Building an authenticated REST API][blog1]
+### [React Static Boilerplate](/blog/2)
 
-##### [Working with React Static Boilerplate][blog2]
-
-##### [Thoughts on Typescript][blog3]
+### [JSON REST Authentication](/blog/1)
 
 <hr>
 
-### &nbsp; PROJECTS &nbsp;
+## [PROJECTS](/projects)
 
-##### [UBC ClassPortal][classportal] - Course management system
+### [UBC ClassPortal](/projects/classportal) - Course management system
 
-##### [KiCASS][kicass] - Kinect-Controlled Artistic Sensing System
+### [KiCASS](/projects/kicass) - Kinect-Controlled Artistic Sensing System
 
-##### [Fine Scrubbing][finescrubbing] - iOS-style "fine scrubbing" for desktop video
-
-<hr>
-
-### &nbsp; ABOUT &nbsp;
-
-[React Static Boilerplate][boilerplate] was used as a template for this site,
-and the colour palette was inspired by the [One Dark UI][onedark] theme for Atom.
-The source code can be found on [GitHub][source].
-
-<br><br>
+### [Fine Scrubbing](/projects/finescrubbing) - iOS-style "fine scrubbing" for desktop video
 
 [github]: <https://github.com/mksarge>
 [email]: <mailto:michaelksarge@gmail.com>
-[blog1]: <blog/1>
-[blog2]: <blog/2>
-[blog3]: <blog/3>
-[classportal]: <projects/classportal/>
-[kicass]: <projects/kicass/>
-[boilerplate-mksarge]: <https://github.com/mksarge/react-static-boilerplate>
-[finescrubbing]: <projects/finescrubbing/>
-[boilerplate]: <https://github.com/kriasoft/react-static-boilerplate-one-dark>
-[onedark]: <https://github.com/atom/one-dark-ui>
-[source]: <https://github.com/mksarge/mksarge>

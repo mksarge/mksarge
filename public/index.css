@@ -7,92 +7,58 @@ html, body {
   background-color: #282c34;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1em;
 }
 
 #app {
-  margin: 0px !important;
   min-height: 100% !important;
   height: 100% !important;
 }
 
 a {
   text-decoration: none;
-  color: #e06C75;
-}
-
-a:hover {
+} a:hover {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, li {
   font-weight: normal;
   line-height: 2em;
   padding: 0;
   margin: 0;
-  vertical-align: center;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.8em;
+  color: #a9ee8a;
+} h1 a {
   font-weight: bold;
+  color: #a9ee8a;
 }
 
 h2 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #a9ee8a;
+  font-size: 1.5em;
+  color: #56b6c2;
 } h2 a {
-  color: #a9ee8a;
+  color: #56b6c2;
 }
 
 h3 {
-  display:inline-block;
-  font-size: 1.5em;
-  font-weight: bold;
-  line-height: 1em;
-  padding: 0 2px;
-  margin-bottom: 15px;
-  border-radius: 20px;
-  background-color: #4c566a;
-  color: #56b6c2;
+  font-size: 1.2em;
+  color: #d0a680;
 } h3 a {
-  font-weight: bold;
-  color: #56b6c2;
-}
-
-h4 {
-  font-size: 1.2em;
-  color: #d0a680;
-} h4 a {
-  font-size: 1.2em;
   color: #d0a680;
 }
 
-h5 {
+p, h4, h5, h6, li {
   font-size: 1em;
   color: #bfc8da;
-} h5 a {
-  font-size: 1.2em;
-  color: #d0a680;
-}
-
-li, h6 {
-  font-size: 1em;
-  color: #bfc8da;
-}
-
-p {
-  font-size: 1em;
-  color: #bfc8da;
-} p a {
-  color: #E06C75;
+} p a, h4 a, h5 a, h6 a, li a {
+  color: #e06C75;
 }
 
 hr {
-  height: 2px;
+  height: 1px;
   border: 0;
-  padding: 0 5%;
-  margin: 20px 0 30px 0;
+  margin: 20px 0;
   background: #4c566a;
 }
