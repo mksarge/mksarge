@@ -1,4 +1,8 @@
-.projectpage h1, .projectpage h2 {
+.projectpage p, .projectpage h2, .projectpage h3, .projectpage h4, .projectpage h5, .projectpage h6, .projectpage li {
+  line-height: 1.5em;
+}
+
+.projectpage h1, .projectpage h2, .projectpage h5, .projectpage h6 {
   text-align: center;
 }
 
@@ -11,4 +15,9 @@
   padding: 0 5px;
   margin: 0 2px;
   border-radius: 7px;
+}
+
+.projectpage h6 {
+  font-style: italic;
+  display: inline-block;
 }
