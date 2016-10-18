@@ -52,16 +52,14 @@ h3 {
 h4 {
   font-size: 1em;
   color: #77aaff;
-  padding-top: 1em;
-  text-decoration: none;
 } h4 a {
   color: #77aaff;
 }
 
 h5 {
+  display: inline-block;
   font-size: 1em;
   color: #bfc8da;
-  display: inline-block;
   padding: 0px 7px;
   margin: 10px 2px 0 2px;
   background: #444466;
@@ -73,9 +71,6 @@ h5 {
 h6 {
   font-size: 1em;
   color: #bfc8da;
-  text-align: center;
-  font-style: italic;
-  display: inline-block;
 } h6 a {
   color: #e06C75;
 }
