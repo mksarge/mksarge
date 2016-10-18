@@ -11,34 +11,28 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import s from './index.css';
-import { title, html } from './index.md';
 import Link from '../../components/Link';
 
 class HomePage extends React.Component {
 
   componentDidMount() {
-    document.title = title;
+    document.title = 'Michael Sargent | Projects';
   }
 
   render() {
     return (
       <Layout className={s.projects}>
-        <br />
         <h1>PROJECTS</h1>
         <hr />
         <h2>In-Progress</h2>
-        <h3><Link to="/projects/classportal">UBC ClassPortal</Link>
-          &nbsp;-&nbsp;Course management system
-        </h3>
-        <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link>
-          &nbsp;-&nbsp;iOS-style "fine scrubbing" for desktop video
-        </h3>
+        <h3><Link to="/projects/classportal">UBC ClassPortal</Link></h3>
+        <p>Course management system</p>
+        <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link></h3>
+        <p>iOS-style "fine scrubbing" for desktop video</p>
         <hr />
         <h2>Completed</h2>
-        <h3>
-          <Link to="/projects/kicass">KiCASS</Link>
-          &nbsp;-&nbsp;Kinect-Controlled Artistic Sensing System
-        </h3>
+        <h3><Link to="/projects/kicass">KiCASS</Link></h3>
+        <p>Kinect-Controlled Artistic Sensing System</p>
       </Layout>
     );
   }
