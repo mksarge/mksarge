@@ -49,10 +49,20 @@ h3 {
   color: #d0a680;
 }
 
-p, h4, h5, h6, li {
+h6 {
   font-size: 1em;
   color: #bfc8da;
-} p a, h4 a, h5 a, h6 a, li a {
+  text-align: center;
+  font-style: italic;
+  display: inline-block;
+} h6 a {
+  color: #e06C75;
+}
+
+p, h4, h5, li {
+  font-size: 1em;
+  color: #bfc8da;
+} p a, h4 a, h5 a, li a {
   color: #e06C75;
 }
 
