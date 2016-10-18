@@ -12,7 +12,7 @@ title: Michael Sargent | KiCASS
 
 ##### Max / MSP
 
-##### Human-Computer Interaction
+##### Human Computer Interaction
 
 <hr>
 
