@@ -33,6 +33,28 @@ module.exports = function markdownLoader(source) {
     },
   });
 
+  // add target="_blank" to all links
+  const defaultRender = md.renderer.rules.link_open ||
+    function renderIt(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  // add target="_blank" to all links
+  md.renderer.rules.link_open = function changeRenderRules(tokens, idx, options, env, self) {
+    // If you are sure other plugins can't add `target` - drop check below
+    const aIndex = tokens[idx].attrIndex('target');
+
+    if (aIndex < 0) {
+      tokens[idx].attrPush(['target', '_blank']); // add new attribute
+    } else {
+      // replace value of existing attr //
+      tokens[idx].attrs[aIndex][1] = '_blank'; // eslint-disable-line no-param-reassign
+    }
+
+    // pass token to default renderer.
+    return defaultRender(tokens, idx, options, env, self);
+  };
+
   const frontmatter = fm(source);
   frontmatter.attributes.html = md.render(frontmatter.body);
 
