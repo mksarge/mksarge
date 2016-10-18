@@ -10,11 +10,11 @@ title: Michael Sargent | Fine Scrubbing
 
 ##### JavaScript
 
-##### Human-Computer Interaction
+##### Human Computer Interaction
 
 ##### Usability
 
-##### Usable Design
+##### Accessibility
 
 <hr>
 
@@ -63,7 +63,7 @@ The goals of this project are:
 Scrubbing is the act of dragging the indicator on a audio/video player's progress
 bar forward or back. [Wikipedia][scrubbing]
 
-#### Usability and Usable Design
+#### Usability
 
 Usability is described as the effectiveness, efficiency and satisfaction with which
 specified users achieve specified goals in particular environments [ISO 9241][iso]. 
