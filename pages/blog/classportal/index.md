@@ -2,8 +2,6 @@
 title: Michael Sargent | ClassPortal
 ---
 
-<br>
-
 # BLOG
 
 ## [Building ClassPortal]()
