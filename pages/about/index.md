@@ -1,8 +1,6 @@
 ---
 title: Michael Sargent | About
 ---
- 
-<br>
 
 # ABOUT
 
