@@ -11,19 +11,17 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import s from './index.css';
-import { title, html } from './index.md';
 import Link from '../../components/Link';
 
 class HomePage extends React.Component {
 
   componentDidMount() {
-    document.title = title;
+    document.title = 'Michael Sargent | Blog';
   }
 
   render() {
     return (
       <Layout className={s.blog}>
-        <br />
         <h1>BLOG</h1>
         <hr />
         <h2>October 2016</h2>
