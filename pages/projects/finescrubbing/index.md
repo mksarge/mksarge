@@ -4,13 +4,23 @@ title: Michael Sargent | Fine Scrubbing
 
 # Fine Scrubbing
 
-## iOS-style "fine scrubbing" for web video
+## iOS-style "fine scrubbing" for html video
+
+##### HTML
+
+##### JavaScript
+
+##### Human-Computer Interaction
+
+##### Usability
+
+##### Usable Design
 
 <hr>
 
 <img src="/vimeo-player.png" style="max-width: calc(100% - 20px);" />
 
-###### Vimeo HTML5 Player ([source][vimeo])
+###### Vimeo HTML5 Player [source&nbsp;][vimeo]
 
 <hr>
 
@@ -32,41 +42,54 @@ controls:
 * video resolution control
 * etc.
 
-This project looks at existing designs of the progress bar UI on popular video players 
-from a usability standpoint, with the goal of finding potential areas of improvement
-and creating prototypes for those improvements. 
+Eg. [Vimeo player][vimeo] 
 
 <hr>
 
-### Usability
+### Goals
+
+The goals of this project are:
+
+* to examine existing designs of the progress bar in popular video players
+* to find potential areas of improvement, with emphasis on usable design
+* to create working prototypes to showcase those improvements. 
+
+<hr>
+
+### Problem
+
+#### Scrubbing
+
+Scrubbing is the act of dragging the indicator on a audio/video player's progress
+bar forward or back. [Wikipedia][scrubbing]
+
+#### Usability and Usable Design
 
 Usability is described as the effectiveness, efficiency and satisfaction with which
-specified users achieve specified goals in particular environments ([ISO 9241][iso]).
+specified users achieve specified goals in particular environments [ISO 9241][iso]. 
+Usable design refers to the consideration of usability in the design and implementation
+of a user interface. 
 
-<br>
+#### Progress Bars
 
-In this case,
-
-When it comes to "scrubbing" - the act of scolling the audio/video progress bars forward or back,
-the consideration of accessible design can be a huge deal.
-
-<hr>
-
-### Existing Solutions
-
-In my experience, the progress bar the video player control that is least subject to
-innovation.
-
-<br>
-
-Popular video players often have custom and unique UI designs for controls such as the
-volume bar, resolution / settings button, and general video overlay; but there has not
-been much innovation in modern implementations of progress bars, with one exception:
-Apple's iOS native audio/video player API.
+In my regular use of the internet, I found that the designs of progress bars on
+popular video sites lack innovation and the consideration of usability. Notably,
+it often hard or impossible to scrub to an exact time - precise to 1 second - when
+viewing a long (eg. 1 hour) video.
 
 <hr>
 
-### Apple iOS - fine scrubbing
+### Notable Solutions
+
+I've only encountered two platforms with progress bars featuring anything more than
+basic scrubbing capabilities: [YouTube][youtube] (desktop site) and [Apple iOS][ios] (native video
+player API).
+
+#### YouTube
+
+YouTube's desktop web player.
+
+#### iOS
 
 The most thoughtful example I've come across is in Apple's "fine scrubbing" design for iOS devices.
 [Here](https://www.youtube.com/watch?v=slEYBlw6pCs) is a demo of that feature, implemented in the
@@ -75,18 +98,15 @@ default music application.
 <br>
 
 iOS fine scrubbing is a modern and well-designed solution for the accessibility problem discussed
-above, and I view it a tragedy that no similar or inspired designs can be found on other popular
-platforms!
+above, and I view it a tragedy that no similar or inspired designs are used on other popular
+platforms.
 
 <hr> 
 
 ### Future Work
 
-I aim to
-
-* develop a working demo, implementing iOS-style fine scrubbing to html video  
-* implement iOS-style "fine scrubbing" on html video, with initial focus on desktop/mouse
-* research/create different designs for different scenarios (phone/tablet/desktop; touchscreen/touchpad/mouse)
+* develop a working demo of iOS-style fine scrubbing for html video
+* develop more designs for progress bar scrubbing, with usability as a priority
 
 <hr> 
 
@@ -95,5 +115,9 @@ I aim to
 [GitHub][github]
 
 [vimeo]: <https://developer.vimeo.com/player>
+[scrubbing]: <https://en.wikipedia.org/wiki/Scrubbing_(audio)>
 [iso]: <https://www.w3.org/2002/Talks/0104-usabilityprocess/slide3-0.html>
+[youtube]: <https://youtube.com>
+[ios]: <https://developer.apple.com/ios/human-interface-guidelines/>
+[sliders]: <https://developer.apple.com/ios/human-interface-guidelines/ui-controls/sliders/>
 [github]: <https://github.com/mksarge/fine-scrubbing>

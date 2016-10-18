@@ -6,9 +6,17 @@ title: Michael Sargent | KiCASS
 
 ## Kinect-Controlled Artistic Sensing System
 
+##### Windows
+
+##### C# / WPF
+
+##### Max / MSP
+
+##### Human-Computer Interaction
+
 <hr>
 
-<iframe id="myFrame" src="https://www.youtube.com/embed/1gVW2csSEds" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1gVW2csSEds" frameborder="0" allowfullscreen ></iframe>
 
 <br> 
 
@@ -16,7 +24,7 @@ title: Michael Sargent | KiCASS
 
 ### Background
 
-[The UBC Laptop Orchestra][laptop] is a multidisciplinary music group consisting of
+The [UBC Laptop Orchestra][laptop] is a multidisciplinary music group consisting of
 music performance and composition students, dancers, coders, and more. 
 Each year, they produce innovative audio-art installations/performances
 with a wide range of technology.
@@ -64,7 +72,7 @@ participage in the [Electric Spring][electric] festival where we performed two p
 
 ### Links
 
-[GitHub][github] | [IMPART Blog][impart] | [Campus Publication][news] | [YouTube][youtube]
+[GitHub][github] [IMPART Blog][impart] [Campus Publication][news] [YouTube][youtube]
 
 [laptop]: <http://music.ubc.ca/student-ensembles/laptop-orchestra/>
 [capstone]: <https://www.ece.ubc.ca/courses/capstones>

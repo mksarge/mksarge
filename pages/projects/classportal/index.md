@@ -6,6 +6,16 @@ title: Michael Sargent | ClassPortal
 
 ## Course management system
 
+##### JavaScript
+
+##### TypeScript
+
+##### React
+
+##### Node.js
+
+##### Restify
+
 <hr>
 
 ### Description
@@ -41,7 +51,7 @@ We chose to use React to build the client-side webpage. React is “a JavaScript
 
 ### Links
 
-[GitHub][github] | [Website][demo]
+[GitHub][github] [Website][demo]
 
 [github]: <https://github.com/ubccpsc/classportal/>
 [demo]: <http://skaha.cs.ubc.ca:8020>

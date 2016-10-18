@@ -2,6 +2,13 @@
   text-align: center;
 }
 
-.projectpage p, .projectpage h3, .projectpage li {
+.projectpage p, .projectpage h3, .projectpage h4, .projectpage li {
   text-align: left;
+}
+
+.projectpage a {
+  background: #444466;
+  padding: 0 5px;
+  margin: 0 2px;
+  border-radius: 7px;
 }
