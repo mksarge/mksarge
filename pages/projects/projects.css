@@ -17,12 +17,6 @@
   border-radius: 7px;
 }
 
-.projectpage h6 {
-  font-style: italic;
-  color: lightgreen;
-  display: inline-block;
-}
-
 .projectpage h3 {
   padding-bottom: 10px;
 }
@@ -31,10 +25,21 @@
   padding: 5px 0;
 }
 
+.projectpage h6 {
+  font-style: italic;
+  color: #99ce9a;
+  display: inline-block;
+  padding-bottom: 1em;
+}
+
 .projectpage ul {
   margin: 0;
 }
 
 .projectpage img {
-  margin: 10px 0;
+  margin: 1em 0 0 0;
+}
+
+.projectpage iframe {
+  margin: 0;
 }
