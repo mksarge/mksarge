@@ -166,8 +166,6 @@ for the readers to try for themselves.
 
 #### Apple iOS (native) &#9733;&#9733;&#9733;
 
-<br>
-
 <iframe style ="width: calc(100% - 20px)" height="300px" src="https://www.youtube.com/embed/CPp7gLQnCW8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ###### iOS "fine scrubbing" explained.
