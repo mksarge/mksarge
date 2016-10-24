@@ -18,7 +18,7 @@ title: Michael Sargent | Fine Scrubbing
 
 <hr>
 
-<img src="/vimeo-player.png" style="max-width: calc(100% - 20px);" />
+<img src="/vimeo-player.png" />
 
 ###### Vimeo's HTML5 Video Player [(source)][vimeo-player]
 
@@ -87,7 +87,7 @@ bar forward or back. [Wikipedia][scrubbing]
 
 #### Progress Indicator
 
-<img src="/youtube-progress-indicator.png" style="max-width: calc(100% - 20px);" />
+<img src="/youtube-progress-indicator.png" />
 
 ###### YouTube's progress indicator is a small circle that appears when hovering over the progress bar.
 
@@ -130,7 +130,7 @@ but the initial focus of this project is on usage with a desktop and mouse.
 
 #### Vimeo (desktop-web) &#9733;&#9734;&#9734;
 
-<img src="/vimeo-bar.png" style="max-width: calc(100% - 20px);" />
+<img src="/vimeo-bar.png" />
 
 ###### A preview frame is shown when hovering over Vimeo's progress bar.
 
@@ -147,7 +147,7 @@ the mouse is hovering over, without needing to click and go to that spot in the 
 
 #### YouTube (desktop-web) &#9733;&#9733;&#9734;
 
-<img src="/youtube-bar.png" style="max-width: calc(100% - 20px);" />
+<img src="/youtube-bar.png" />
 
 ###### A preview frame and it's neighbouring frames are shown when hovering over YouTube's progress bar.
 
