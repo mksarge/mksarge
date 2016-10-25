@@ -20,7 +20,7 @@ title: Michael Sargent | KiCASS
 
 <img src="/entropy.gif" />
 
-###### KiCASS in action at Bang! Festival, May 2016. [source][entropy]
+###### KiCASS in action at UBC Bang! Festival 2016. [source][entropy]
 
 <hr>
 
@@ -76,9 +76,9 @@ capabilities to track at least 1 dancer.
 #### Max/MSP
 
 [Max][max] is a visual programming software used by the UBC Laptop Orchestra to produce
-their pieces, and MSP is a Max extension that allows for digital audio signals to
-be manipulated in real time. Our system was required to stream the motion data to
-multiple Max/MSP clients simultaneously.
+their pieces, and MSP is a Max extension that allows for the manipulation of digital
+audio signals in real time. Our system was required to stream motion data from the Kinect
+to multiple Max/MSP clients simultaneously.
 
 <hr>
 
@@ -86,7 +86,7 @@ multiple Max/MSP clients simultaneously.
 
 #### High-Level Architecture
 
-Our final design was a system consisting of 3 components:
+Our final design was a system consisting of 3 major components:
 
 <br>
 
@@ -102,7 +102,7 @@ The following sub-sections describe the components in more detail.
 
 <img src="/kicass-architecture.png" />
 
-###### A topographical representation of the final design. [source][architecture]
+###### A topographical representation of the final design.
 
 <br>
 
