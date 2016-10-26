@@ -13,17 +13,19 @@ import Footer from '../Footer';
 import Header from '../Header';
 import s from './Layout.css';
 
-function Layout() {
-  return (
-    <div className={s.container} >
-      <div className={s.content}>
-        <Header />
-        <br />
-        <div {...this.props} />
+class Layout extends React.Component {
+  render() {
+    return (
+      <div className={s.container} >
+        <div className={s.content}>
+          <Header />
+          <br />
+          <div {...this.props} />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  );
+    );
+  }
 }
 
 export default Layout;
