@@ -11,3 +11,9 @@
 .blog h1, .blog h2, .blog h3, .blog p {
   text-align: center;
 }
+
+.blog p {
+  line-height: 1.5em;
+  font-style: italic;
+  padding-bottom: 10px;
+}

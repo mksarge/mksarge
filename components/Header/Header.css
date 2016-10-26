@@ -21,17 +21,23 @@
   color: #bfc8da;
   font-weight: normal;
 }
+
 @media screen and (min-width: 400px) {
   .header {
     height:35px;
-  } .header p a {
+  }
+
+  .header p a {
     font-size: 1.1em;
   }
 }
+
 @media screen and (min-width: 500px) {
   .header {
     height:40px;
-  } .header p a {
+  }
+
+  .header p a {
     font-size: 1.3em;
   }
 }

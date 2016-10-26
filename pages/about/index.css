@@ -11,6 +11,7 @@
 .about h1, .about h2 {
   text-align: center;
 }
-.about h3, .about p {
+
+.about h3, .about h4, .about p {
   text-align: left;
 }

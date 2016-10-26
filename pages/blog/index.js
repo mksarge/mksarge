@@ -11,7 +11,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import s from './index.css';
-import Link from '../../components/Link';
 
 class HomePage extends React.Component {
 
@@ -24,10 +23,8 @@ class HomePage extends React.Component {
       <Layout className={s.blog}>
         <h1>BLOG</h1>
         <hr />
-        <h2>October 2016</h2>
-        <h3><Link to="/blog/0">Building ClassPortal</Link></h3>
-        <h3><Link to="/blog/1">React Static Boilerplate</Link></h3>
-        <h3><Link to="/blog/2">REST Authentication</Link></h3>
+        <h2>November 2016</h2>
+        <p>Under construction!</p>
       </Layout>
     );
   }
@@ -35,5 +32,3 @@ class HomePage extends React.Component {
 }
 
 export default HomePage;
-
-// <div className={s.blog} dangerouslySetInnerHTML={{ __html: html }} />

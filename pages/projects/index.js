@@ -24,7 +24,7 @@ class HomePage extends React.Component {
       <Layout className={s.projects}>
         <h1>PROJECTS</h1>
         <hr />
-        <h2>In-Progress</h2>
+        <h2>In Progress</h2>
         <h3><Link to="/projects/classportal">UBC ClassPortal</Link></h3>
         <p>Course management system</p>
         <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link></h3>
@@ -40,5 +40,3 @@ class HomePage extends React.Component {
 }
 
 export default HomePage;
-
-// <div className={s.projects} dangerouslySetInnerHTML={{ __html: html }} />

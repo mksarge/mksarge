@@ -17,9 +17,13 @@
   margin: 0 auto;
   color: #ddddff;
   text-align: center;
-} .footer p {
+}
+
+.footer p {
   font-weight: bold;
-} .footer a {
+}
+
+.footer a {
   font-weight: normal;
 }
 
