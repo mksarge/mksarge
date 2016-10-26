@@ -1,8 +1,8 @@
 /**
- * React Static Boilerplate
- * https://github.com/kriasoft/react-static-boilerplate
+ * www.mksarge.com
+ * https://github.com/mksarge/mksarge
  *
- * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
+ * Copyright © 2016 Michael Sargent
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
@@ -32,11 +32,3 @@ function Header() {
 }
 
 export default Header;
-
-/*
-
-.bar1:hover, .bar2:hover, .bar3:hover, .bar4:hover {
-  background-color: #4c566a;
-}
-
-*/

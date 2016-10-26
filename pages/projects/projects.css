@@ -1,3 +1,13 @@
+/**
+ * www.mksarge.com
+ * https://github.com/mksarge/mksarge
+ *
+ * Copyright © 2016 Michael Sargent
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
 .projectpage p, .projectpage h2, .projectpage h3, .projectpage h4, .projectpage h5, .projectpage h6, .projectpage li {
   line-height: 1.5em;
 }
