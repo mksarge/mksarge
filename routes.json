@@ -32,10 +32,6 @@
   {
     "path": "/blog",
     "page": "./pages/blog"
-  },
-  {
-    "path": "/blog/0",
-    "page": "./pages/blog/classportal"
   }
 ]
 
