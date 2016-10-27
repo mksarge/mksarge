@@ -25,7 +25,7 @@ class HomePage extends React.Component {
         <h1>PROJECTS</h1>
         <hr />
         <h2>In Progress</h2>
-        <h3><Link to="/projects/classportal">UBC ClassPortal</Link></h3>
+        <h3><Link to="/projects/classportal">ClassPortal</Link></h3>
         <p>Course management system</p>
         <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link></h3>
         <p>iOS-style "fine scrubbing" for desktop video</p>
