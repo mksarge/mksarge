@@ -14,13 +14,11 @@ const fs = require('fs');
 const del = require('del');
 const ejs = require('ejs');
 const webpack = require('webpack');
-
-// TODO: Update configuration settings
 const config = {
   title: 'Michael Sargent',
   url: 'www.mksarge.com',
   project: 'mksarge-c64b2',
-  trackingID: '',                 // Google Analytics Site's ID
+  trackingID: 'UA-86498811-1',
 };
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
