@@ -1,22 +1,8 @@
 ---
-title: Michael Sargent | KiCASS
+title: KiCASS
+subtitle: Kinect-Controlled Artistic Sensing System
+tags: [C# / WPF, Max / MSP, Kinect v2, Human Computer Interaction, Interactive Art]
 ---
-
-# KiCASS
-
-## Kinect-Controlled Artistic Sensing System
-
-##### C# / WPF
-
-##### Max / MSP
-
-##### Kinect v2
-
-##### Human Computer Interaction
-
-##### Interactive Art
-
-<hr>
 
 <img src="/entropy.gif" />
 
@@ -56,10 +42,6 @@ A [team introduction][team] can be found on the IMPART blog. Team members:
 * Kelsey Hawley
 * Kevin Hui
 * Michael Sargent
-
-<br>
-
-
 
 <hr>
 

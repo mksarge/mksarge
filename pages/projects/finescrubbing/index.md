@@ -1,22 +1,8 @@
+--- 
+title: Fine Scrubbing
+subtitle: iOS-style "fine scrubbing" for desktop video
+tags: [HTML5, JavaScript, Human Computer Interaction, Usability, Accessibility]
 ---
-title: Michael Sargent | Fine Scrubbing
----
-
-# Fine Scrubbing
-
-## Bringing iOS-style "fine scrubbing" to HTML5 video
-
-##### HTML5
-
-##### JavaScript
-
-##### Human Computer Interaction
-
-##### Usability
-
-##### Accessibility
-
-<hr>
 
 <img src="/vimeo-player.png" />
 
@@ -42,7 +28,7 @@ title: Michael Sargent | Fine Scrubbing
 
 ### Background
 
-#### Video Players
+#### Video Player
 
 Video players are ubiquitous on the internet. Companies that dominate the internet
 audio / video space, like YouTube, Vimeo, and Netflix, all have proprietary players
@@ -63,68 +49,51 @@ capabilities through these standard controls:
 
 <br>
 
-#### Progress Bars
-
-A progress bar is the graphical control element
-
-<br>
-
-In the case of audio / video players,
-
-<br>
-
-[Read more][wiki] about progress bars and related research.
-
-<br>
-
-The focus of this project is 
-
-A progress indicator is a visual component of a progress bar that indicates the current
-time of the video. It often takes the form of a circle, such as the one on seen in the above
-image. With the help of JavaScript or CSS magic, it can provide helpful visual feedback to
-improve the usability of video scrubbing.
-
-<br>
-
-Some video players do not use a dedicated progress indicator, opting to simply mark
-the progress of the video with a different color (eg. Vimeo's[blue progress bar][vimeo-player]). 
-
-<br>
+#### Progress Bar
 
 <img src="/youtube-progress-indicator.png" />
 
-###### YouTube's progress indicator is a small circle that appears when hovering over the progress bar.
+###### YouTube's progress bar indicates the elapsed time with a contrasting colour and circular indicator.
+
+<br>
+
+A progress bar is the graphical control element used to indicate the time and progress of the
+video being played. Most progress bars use different colours to indicate the elapsed time
+of the video. Some designs also include an extra visual cue, such as the small circle
+seen in YouTube's player (above).
 
 <br>
 
 #### Scrubbing
 
-Scrubbing is the act of dragging the progress indicator on an audio or video player's progress
-bar forward or back. [Wikipedia][scrubbing]
+Scrubbing is the act of dragging the progress indicator on an audio/video player's progress
+bar, in order to move the current playing time forward/backward. [Wikipedia][scrubbing]
 
 <br>
 
-#### Usability
+#### Accessibility and Usability
 
-Usability is described in [ISO 9241][iso] as the effectiveness, efficiency and
-satisfaction with which specified users achieve specified goals in particular
-environments.
+Accessibility refers to "the inclusive practice of removing barriers that prevent
+interaction with, or access to websites, by people with disabilities".
+[Wikipedia][access]
 
 <br>
 
-In this project, usable design refers to the consideration of usability in the
-design and implementation of the progress bar control.
+Usability is described as the "effectiveness, efficiency and satisfaction with which
+specified users achieve specified goals in particular environments. [ISO 9241][iso]
 
 <hr>
 
 ### Problem
 
-In my regular use of the internet, I found that the designs of progress bars on
-popular video sites lack innovation and the consideration of usability.
+In my regular use of the internet, I found that the designs of progress bars on popular
+video sites lack the consideration of accessibility and usability in several regards.
 
 <br>
 
-#### Notable problems:
+#### Notable Problems
+
+General Usability:
 
 * It is often hard or impossible to scrub to an exact time - precise to 1 second - when
 viewing a long (eg. 1 hour) video.
@@ -134,7 +103,16 @@ in the video.
 
 <br>
 
-These problems become even more pronounced when considering the mobile-web video players;
+Accessibility:
+
+* It can be hard for a user with poor mobility to mouse over and click/drag a small
+progress indicator.
+
+<br>
+
+#### Mobile Web Players
+
+These problems become even more pronounced when considering the mobile-web video players,
 but the initial focus of this project is on usage with a desktop and mouse.
 
 <hr>
@@ -181,7 +159,7 @@ for the readers to try for themselves.
 
 <iframe style ="width: calc(100% - 20px)" height="300px" src="https://www.youtube.com/embed/CPp7gLQnCW8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-###### iOS "fine scrubbing" explained.
+###### iOS "fine scrubbing" explained. [source][finescrubbing]
 
 <br>
 
@@ -227,15 +205,13 @@ help kickstart the development of my designs.
 [GitHub][github] [Vimeo API][vimeo-player]
 
 [vimeo-player]: <https://developer.vimeo.com/player>
-[wiki]: <https://en.wikipedia.org/wiki/Progress_bar>
 [scrubbing]: <https://en.wikipedia.org/wiki/Scrubbing_(audio)>
+[access]: <https://en.wikipedia.org/wiki/Web_accessibility>
 [iso]: <https://www.w3.org/2002/Talks/0104-usabilityprocess/slide3-0.html>
 [vimeo]: <https://vimeo.com>
 [youtube]: <https://youtube.com>
-[youtube-desktop]: <https://www.youtube.com/?app=desktop&persist_app=1>
 [ios]: <https://developer.apple.com/ios/human-interface-guidelines/>
-[ios-scrubbing]: <https://www.youtube.com/watch?v=CPp7gLQnCW8>
-[sliders]: <https://developer.apple.com/ios/human-interface-guidelines/ui-controls/sliders/>
+[finescrubbing]: <https://www.youtube.com/watch?v=CPp7gLQnCW8>
 [twitch]: <https://itunes.apple.com/ca/app/twitch/id460177396>
 [vimeo-github]: <https://github.com/vimeo/player.js>
 [github]: <https://github.com/mksarge/fine-scrubbing>

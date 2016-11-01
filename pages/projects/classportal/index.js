@@ -11,22 +11,36 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import s from '../projects.css';
-import { title, html } from './index.md';
+import * as md from './index.md';
 
-class ProjectsPage extends React.Component {
+class Project extends React.Component {
 
   componentDidMount() {
-    document.title = title;
+    document.title = `Michael Sargent \u{00b7} ${md.title}`;
+  }
+
+  renderTags() {
+    const tags = [];
+    for (let i = 0; i < md.tags.length; i++) {
+      tags[i] = (<h5>{md.tags[i]}</h5>);
+    }
+    return tags;
   }
 
   render() {
     return (
       <Layout>
-        <div className={s.projectpage} dangerouslySetInnerHTML={{ __html: html }} />
+        <div className={s.projectpage}>
+          <h1>{md.title}</h1>
+          <h2>{md.subtitle}</h2>
+          {this.renderTags()}
+          <hr />
+          <div dangerouslySetInnerHTML={{ __html: md.html }} />
+        </div>
       </Layout>
     );
   }
 
 }
 
-export default ProjectsPage;
+export default Project;
