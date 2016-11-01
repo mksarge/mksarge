@@ -60,10 +60,10 @@ h5 {
   display: inline-block;
   font-size: 1em;
   color: #bfc8da;
-  padding: 0px 7px;
-  margin: 10px 2px 0 2px;
+  padding: 0px 10px;
+  margin: 10px 4px 0 2px;
   background: #444466;
-  border-radius: 7px;
+  border-radius: 12px;
 } h5 a {
   color: #bfc8da;
 }
