@@ -16,7 +16,7 @@ import Link from '../../components/Link';
 class HomePage extends React.Component {
 
   componentDidMount() {
-    document.title = 'Michael Sargent | Home';
+    document.title = 'Michael Sargent \u{00b7} Home';
   }
 
   render() {
@@ -25,10 +25,12 @@ class HomePage extends React.Component {
         <img src="./profile.png" alt=" " height="200" />
         <h1>Michael Sargent</h1>
         <p>
-          I'm Michael, a computer engineering undergrad at the University of British Columbia.
+          I'm Michael, a web developer and new grad from the University of British Columbia.
           <br />
           <a href="https://github.com/mksarge" target="_blank" >Github</a>
-          &nbsp;|&nbsp;
+          &nbsp;&middot;&nbsp;
+          <a href="https://dl.dropboxusercontent.com/u/58596428/MichaelSargent-Resume2016.pdf" target="_blank" >Resume</a>
+          &nbsp;&middot;&nbsp;
           <a href="mailto:michaelksarge@gmail.com">Email</a>
         </p>
         <hr />
