@@ -8,14 +8,15 @@ title: Michael Sargent | About
 
 #### Michael
 
-I'm Michael, a web developer and computer engineering undergrad at the
+I'm Michael, a web developer and new grad from the Computer Engineering program at the
 [University of British Columbia][ubc]. I'm interested in furthering my skills as a
-JavaScript engineer and becoming a strong full-stack engineer. My academic interests
-include topics in human-computer interaction and accessibility in the context of UI design.
+JavaScript developer and becoming a strong full-stack engineer. My academic interests
+include topics in [human-computer interaction](/projects/kicass) and
+[accessibility in UI design](/projects/finescrubbing).
 
 <br>
 
-#### Website
+#### Site
 
 This static site was built with React, with help from [React Static Boilerplate][boiler],
 and the design was inspired by the [One Dark UI][onedark] theme for Atom text editor.

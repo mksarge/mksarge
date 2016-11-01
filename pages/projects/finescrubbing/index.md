@@ -1,6 +1,6 @@
---- 
-title: Fine Scrubbing
-subtitle: iOS-style "fine scrubbing" for desktop video
+---
+title: FineScrubbing
+subtitle: iOS-style fine scrubbing for desktop video
 tags: [HTML5, JavaScript, Human Computer Interaction, Usability, Accessibility]
 ---
 
