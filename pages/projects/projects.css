@@ -48,11 +48,15 @@
 .projectpage img {
   margin: 1em 0 0 0;
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .projectpage iframe {
   margin: 1em 0 0 0;
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
+}
+
+.projectpage .hero{
+  max-width: 800px;
 }

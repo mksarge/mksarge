@@ -1,23 +1,16 @@
 ---
+hero: "/classportal-delivs.png"
 title: ClassPortal
 subtitle: Course management system
 tags: [JavaScript, TypeScript, React, Node.js, Restify]
 ---
 
-### Summary
-
-ClassPortal is a dynamic system for classroom management. It serves as a lightweight,
-extendable, and open-source alternative to proprietary course management systems.
+_ClassPortal is a dynamic system for classroom management. It serves as a lightweight,
+extendable, and open-source alternative to proprietary course management systems._
 
 <br>
 
-[GitHub][github]
-
-<hr>
-
-<img src="/classportal-delivs.png" />
-
-###### ClassPortal is being used in the UBC CPSC 310 course in the 2016W semester.
+[[TOC]]
 
 <hr>
 

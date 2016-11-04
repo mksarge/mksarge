@@ -22,7 +22,7 @@ class Project extends React.Component {
   renderTags() {
     const tags = [];
     for (let i = 0; i < md.tags.length; i++) {
-      tags[i] = (<h5>{md.tags[i]}</h5>);
+      tags[i] = (<h5 key={i}>{md.tags[i]}</h5>);
     }
     return tags;
   }
@@ -31,6 +31,7 @@ class Project extends React.Component {
     return (
       <Layout>
         <div className={s.projectpage}>
+          <img className={s.hero} src={md.hero} />
           <h1>{md.title}</h1>
           <h2>{md.subtitle}</h2>
           {this.renderTags()}

@@ -1,12 +1,16 @@
 ---
+hero: "/entropy.gif"
 title: KiCASS
 subtitle: Kinect-Controlled Artistic Sensing System
 tags: [C# / WPF, Max / MSP, Kinect v2, Human Computer Interaction, Interactive Art]
 ---
 
-<img src="/entropy.gif" />
+_KiCASS is a system that utilizes the Microsoft Kinext 2.0 to stream motion
+data to Cycling '74's Max for real-time audio/video manipulation._
 
-###### KiCASS in action at UBC Bang! Festival 2016. [source][entropy]
+<br>
+
+[[TOC]]
 
 <hr>
 
@@ -126,7 +130,7 @@ of the dancer's head, as well as the right and left hand state.
 
 <hr>
 
-### Notable Performances
+### Performances
 
 #### Electric Spring, February 2016
 

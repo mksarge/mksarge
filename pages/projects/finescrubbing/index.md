@@ -1,12 +1,16 @@
 ---
+hero: "/vimeo-player.png"
 title: FineScrubbing
 subtitle: iOS-style fine scrubbing for desktop video
 tags: [HTML5, JavaScript, Human Computer Interaction, Usability, Accessibility]
 ---
 
-<img src="/vimeo-player.png" />
+_The goal of FineScrubbing is to produce innovative and accessible designs for the modern
+desktop video player's progress bar._
 
-###### Vimeo's HTML5 video player. [source][vimeo-player]
+<br>
+
+[[TOC]]
 
 <hr>
 
