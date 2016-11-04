@@ -11,6 +11,8 @@
 const MarkdownIt = require('markdown-it');
 const hljs = require('highlight.js');
 const fm = require('front-matter');
+const anchor = require('markdown-it-anchor');
+const toc = require('markdown-it-table-of-contents');
 
 module.exports = function markdownLoader(source) {
   this.cacheable();
@@ -32,6 +34,9 @@ module.exports = function markdownLoader(source) {
       return '';
     },
   });
+
+  md.use(anchor);
+  md.use(toc, { includeLevel: [1, 2, 3] });
 
   // add target="_blank" to all links
   const defaultRender = md.renderer.rules.link_open ||
