@@ -1,5 +1,5 @@
 ---
-hero: "/entropy.gif"
+hero: /entropy.gif
 title: KiCASS
 subtitle: Kinect-Controlled Artistic Sensing System
 tags: [C# / WPF, Max / MSP, Kinect v2, Human Computer Interaction, Interactive Art]

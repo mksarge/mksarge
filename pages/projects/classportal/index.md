@@ -1,5 +1,5 @@
 ---
-hero: "/classportal-delivs.png"
+hero: /classportal-delivs.png
 title: ClassPortal
 subtitle: Course management system
 tags: [JavaScript, TypeScript, React, Node.js, Restify]

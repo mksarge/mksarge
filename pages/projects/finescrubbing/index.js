@@ -9,39 +9,17 @@
  */
 
 import React from 'react';
-import Layout from '../../../components/Layout';
-import s from '../projects.css';
-import * as md from './index.md';
+import ProjectLayout from '../../../components/ProjectLayout';
+import md from './index.md';
 
-class Project extends React.Component {
+const ProjectPage = () => (
+  <ProjectLayout
+    title={md.title}
+    subtitle={md.subtitle}
+    hero={md.hero}
+    tags={md.tags}
+    html={md.html}
+  />
+);
 
-  componentDidMount() {
-    document.title = `Michael Sargent \u{00b7} ${md.title}`;
-  }
-
-  renderTags() {
-    const tags = [];
-    for (let i = 0; i < md.tags.length; i++) {
-      tags[i] = (<h5 key={i}>{md.tags[i]}</h5>);
-    }
-    return tags;
-  }
-
-  render() {
-    return (
-      <Layout>
-        <div className={s.projectpage}>
-          <img className={s.hero} src={md.hero} />
-          <h1>{md.title}</h1>
-          <h2>{md.subtitle}</h2>
-          {this.renderTags()}
-          <hr />
-          <div dangerouslySetInnerHTML={{ __html: md.html }} />
-        </div>
-      </Layout>
-    );
-  }
-
-}
-
-export default Project;
+export default ProjectPage;

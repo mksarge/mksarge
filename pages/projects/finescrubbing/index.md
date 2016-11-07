@@ -1,5 +1,5 @@
 ---
-hero: "/vimeo-player.png"
+hero: /vimeo-player.png
 title: FineScrubbing
 subtitle: iOS-style fine scrubbing for desktop video
 tags: [HTML5, JavaScript, Human Computer Interaction, Usability, Accessibility]
