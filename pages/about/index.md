@@ -10,7 +10,7 @@ title: Michael Sargent | About
 
 I'm Michael, a web developer and new graduate of the Computer Engineering program at the
 University of British Columbia. I'm currently working as an academic
-assistant under UBC professor Reid Holmes, building [ClassPortal][/projects/classportal].
+assistant under UBC professor Reid Holmes, building [ClassPortal](/projects/classportal).
 
 <br>
 
