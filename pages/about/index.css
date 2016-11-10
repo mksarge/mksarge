@@ -15,3 +15,9 @@
 .about h3, .about h4, .about p {
   text-align: left;
 }
+
+.about a {
+  background: #3a3a59;
+  padding: 0 4px;
+  border-radius: 7px;
+}

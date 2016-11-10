@@ -8,9 +8,9 @@ title: Michael Sargent | About
 
 #### Michael
 
-I'm Michael, a web developer and new grad from the Computer Engineering program at the
-[University of British Columbia][ubc]. I'm currently working as an academic
-assistant under UBC professor Reid Holmes, building [ClassPortal][classportal].
+I'm Michael, a web developer and new graduate of the Computer Engineering program at the
+University of British Columbia. I'm currently working as an academic
+assistant under UBC professor Reid Holmes, building [ClassPortal][/projects/classportal].
 
 <br>
 
@@ -25,12 +25,10 @@ include topics in [human-computer interaction](/projects/kicass) and
 
 #### Site
 
-This static site was built with React, with help from [React Static Boilerplate][boiler],
-and the design was inspired by the [One Dark UI][onedark] theme for Atom text editor.
-The [source code][source] is on GitHub.
+This site was built with help from [React Static Boilerplate][boiler], and the design was
+inspired by the [One Dark][onedark] theme for the Atom editor. The source code can be found
+on [GitHub][source].
 
-[ubc]: <https://www.ubc.ca/>
 [boiler]: <https://github.com/kriasoft/react-static-boilerplate>
 [onedark]: <https://github.com/atom/one-dark-ui>
 [source]: <https://github.com/mksarge/mksarge>
-[classportal]: </projects/classportal>
