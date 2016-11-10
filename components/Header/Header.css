@@ -12,7 +12,7 @@
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
-  height:30px;
+  height: 30px;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 400px) {
   .header {
-    height:35px;
+    height: 35px;
   }
 
   .header p a {
@@ -34,7 +34,7 @@
 
 @media screen and (min-width: 500px) {
   .header {
-    height:40px;
+    height: 40px;
   }
 
   .header p a {
@@ -43,35 +43,35 @@
 }
 
 .bar1 {
-  position:relative;
-  height:5%;
+  position: relative;
+  height: 5%;
   width: 25%;
   background-color: #a9ee8a;
 }
 
 .bar2 {
-  position:relative;
-  top:-5%;
-  left:25%;
-  height:5%;
+  position: relative;
+  top: -5%;
+  left: 25%;
+  height: 5%;
   width: 25%;
   background-color: #56b6c2;
 }
 
 .bar3 {
-  position:relative;
-  top:-10%;
-  left:50%;
-  height:5%;
+  position: relative;
+  top: -10%;
+  left: 50%;
+  height: 5%;
   width: 25%;
   background-color: #d0a680;
 }
 
 .bar4 {
-  position:relative;
-  top:-15%;
-  left:75%;
-  height:5%;
+  position: relative;
+  top: -15%;
+  left: 75%;
+  height: 5%;
   width: 25%;
-  background-color: #e06C75;
+  background-color: #e06c75;
 }

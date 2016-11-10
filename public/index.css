@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   min-height: 100% !important;
   height: 100% !important;
   width: 100% !important;
@@ -16,11 +17,21 @@ html, body {
 
 a {
   text-decoration: none;
-} a:hover {
+}
+
+a:hover {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
   font-weight: normal;
   line-height: 2em;
   padding: 0;
@@ -30,7 +41,9 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 h1 {
   font-size: 1.8em;
   color: #a9ee8a;
-} h1 a {
+}
+
+h1 a {
   font-weight: bold;
   color: #a9ee8a;
 }
@@ -38,48 +51,62 @@ h1 {
 h2 {
   font-size: 1.5em;
   color: #56b6c2;
-} h2 a {
+}
+
+h2 a {
   color: #56b6c2;
 }
 
 h3 {
   font-size: 1.3em;
   color: #d0a680;
-} h3 a {
+}
+
+h3 a {
   color: #d0a680;
 }
 
 h4 {
   font-size: 1.1em;
-  color: #77aaff;
-} h4 a {
-  color: #e06C75;
+  color: #7af;
+}
+
+h4 a {
+  color: #e06c75;
 }
 
 h5 {
   display: inline-block;
   font-size: 1em;
   color: #bfc8da;
-  padding: 0px 10px;
+  padding: 0 10px;
   margin: 10px 4px 0 2px;
-  background: #444466;
+  background: #446;
   border-radius: 12px;
-} h5 a {
+}
+
+h5 a {
   color: #bfc8da;
 }
 
 h6 {
   font-size: 1em;
   color: #bfc8da;
-} h6 a {
-  color: #e06C75;
 }
 
-p, li {
+h6 a {
+  color: #e06c75;
+}
+
+p,
+li {
   font-size: 1em;
   color: #bfc8da;
-} p a, li a {
-  color: #e06C75;
+}
+
+p a,
+li a {
+  color: #e06c75;
 }
 
 hr {

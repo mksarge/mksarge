@@ -8,14 +8,14 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
- .footer {
+.footer {
   position: absolute;
   width: 100%;
   height: auto;
-  bottom:0;
+  bottom: 0;
   padding: 0;
   margin: 0 auto;
-  color: #ddddff;
+  color: #ddf;
   text-align: center;
 }
 

@@ -8,10 +8,12 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-.blogpage h1, .blogpage h2 {
+.blogpage h1,
+.blogpage h2 {
   text-align: center;
 }
 
-.blogpage p, .blogpage h3 {
+.blogpage p,
+.blogpage h3 {
   text-align: left;
 }

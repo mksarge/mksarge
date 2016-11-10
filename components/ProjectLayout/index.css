@@ -8,15 +8,27 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-.projectpage p, .projectpage h2, .projectpage h3, .projectpage h4, .projectpage h5, .projectpage h6, .projectpage li {
+.projectpage p,
+.projectpage h2,
+.projectpage h3,
+.projectpage h4,
+.projectpage h5,
+.projectpage h6,
+.projectpage li {
   line-height: 1.5em;
 }
 
-.projectpage h1, .projectpage h2, .projectpage h5, .projectpage h6 {
+.projectpage h1,
+.projectpage h2,
+.projectpage h5,
+.projectpage h6 {
   text-align: center;
 }
 
-.projectpage p, .projectpage h3, .projectpage h4, .projectpage li {
+.projectpage p,
+.projectpage h3,
+.projectpage h4,
+.projectpage li {
   text-align: left;
 }
 
@@ -46,17 +58,17 @@
 }
 
 .projectpage img {
-  margin: 1em 0 0 0;
+  margin: 1em 0 0;
   width: 100%;
   max-width: 600px;
 }
 
 .projectpage iframe {
-  margin: 1em 0 0 0;
+  margin: 1em 0 0;
   width: 100%;
   max-width: 600px;
 }
 
-.projectpage .hero{
+.projectpage .hero {
   max-width: 800px;
 }
