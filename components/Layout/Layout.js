@@ -13,19 +13,15 @@ import Footer from '../Footer';
 import Header from '../Header';
 import s from './Layout.css';
 
-class Layout extends React.Component {
-  render() {
-    return (
-      <div className={s.container} >
-        <div className={s.content}>
-          <Header />
-          <br />
-          <div {...this.props} />
-        </div>
-        <Footer />
-      </div>
-    );
-  }
-}
+const Layout = () => (
+  <div className={s.container} >
+    <div className={s.content}>
+      <Header />
+      <br />
+      <div {...this.props} />
+    </div>
+    <Footer />
+  </div>
+);
 
 export default Layout;
