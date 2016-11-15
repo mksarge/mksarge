@@ -13,12 +13,12 @@ import Footer from '../Footer';
 import Header from '../Header';
 import s from './Layout.css';
 
-const Layout = () => (
+const Layout = props => (
   <div className={s.container} >
     <div className={s.content}>
       <Header />
       <br />
-      <div {...this.props} />
+      <div {...props} />
     </div>
     <Footer />
   </div>
