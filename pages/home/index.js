@@ -37,6 +37,8 @@ class HomePage extends React.Component {
         <h2><Link to="/projects">PROJECTS</Link></h2>
         <h3><Link to="/projects/classportal">ClassPortal</Link></h3>
         <h6>Course management system</h6>
+        <h3><Link to="/projects/react-static-template">React Static Template</Link></h3>
+        <h6>Single-page React + Webpack boilerplate</h6>
         <h3><Link to="/projects/finescrubbing">Fine Scrubbing</Link></h3>
         <h6>iOS-style "fine scrubbing" for desktop video</h6>
         <h3><Link to="/projects/kicass">KiCASS</Link></h3>

@@ -31,6 +31,8 @@ class HomePage extends React.Component {
         <p>iOS-style "fine scrubbing" for desktop video</p>
         <hr />
         <h2>Completed</h2>
+        <h3><Link to="/projects/react-static-template">React Static Template</Link></h3>
+        <p>Single-page React + Webpack boilerplate</p>
         <h3><Link to="/projects/kicass">KiCASS</Link></h3>
         <p>Kinect-Controlled Artistic Sensing System</p>
       </Layout>
