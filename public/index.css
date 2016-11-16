@@ -115,3 +115,10 @@ hr {
   margin: 20px 0;
   background: #4c566a;
 }
+
+code {
+  padding: 0 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background: #404a90;
+}

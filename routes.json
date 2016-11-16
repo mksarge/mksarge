@@ -30,6 +30,10 @@
     "page": "./pages/projects/finescrubbing"
   },
   {
+    "path": "/projects/react-static-template",
+    "page": "./pages/projects/react-static-template"
+  },
+  {
     "path": "/blog",
     "page": "./pages/blog"
   }
