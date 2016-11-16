@@ -29,9 +29,9 @@ class HomePage extends React.Component {
           <br />
           <a href="https://github.com/mksarge" target="_blank" >Github</a>
           &nbsp;&middot;&nbsp;
-          <a href="https://dl.dropboxusercontent.com/u/58596428/MichaelSargent-Resume2016.pdf" target="_blank" >Resume</a>
+          <a href="https://mksarge.github.io/resume/" target="_blank" >Resume</a>
           &nbsp;&middot;&nbsp;
-          <a href="mailto:michaelksarge@gmail.com">Email</a>
+          <a href="mailto:michael-sargent@hotmail.com">Email</a>
         </p>
         <hr />
         <h2><Link to="/projects">PROJECTS</Link></h2>
