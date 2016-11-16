@@ -36,12 +36,12 @@ and easy to extend.
 <br>
 
 ClassPortal is the result of a collaboration between Dr. Holmes and myself as his undergraduate
-assistant, and is currently [being used][skaha] in Dr. Holmes' lectures in the 2016W semester
+assistant, and is currently being used in Dr. Holmes' lectures in the 2016W semester
 and beyond.
 
 <hr>
 
-### Front End Solution
+### Front End
 
 #### Overview
 
@@ -51,9 +51,45 @@ registration and logging in.
 
 <br>
 
+#### Core Functionality
+
+Common:
+* Registration and login
+
+<br>
+
+Students:
+
+* Submit teammate names for team creation
+* View team, deliverables, and marked grades
+
+<br>
+
+Admins: 
+
+* View and assign grades for all teams
+* View and assign grades for individual students
+* View and upload new deliverables
+* Create or disband teams
+* Create GitHub repos for teams
+* Upload / upddate class list
+
+<br>
+
+#### Interface
+
 Each page of ClassPortal hosts a collection of modules that carry out different functionalities,
-such as a login module on the homepage, or a module to update the class list on the admin portal. 
-[Elemental UI][elemental]'s React UI toolkit was used extensively in this process.
+such as a login module on the homepage, or a module to update the class list on the admin portal.
+
+<br>
+
+[Elemental UI][elemental]'s React UI toolkit was used extensively in this project.
+
+<br>
+
+<img src="/classportal-delivs.png" />
+
+###### The admin portal has a 'Teams' view, 'Students' view, and 'Deliverables' view.
 
 <br>
 
@@ -68,12 +104,12 @@ depending on the user's status as an admin or student, and whether they are logg
 
 One of the core feature of ClassPortal is integration with GitHub. Upon registration, each
 student associates their student info with their GitHub username and authorizes ClassPortal
-for basic read priviledges through the [GitHub API][github-api].
+for basic permissions through the [GitHub API][github-api].
 
 <br>
 
-This also means that ClassPortal does not need to use a first-party login system; instead,
-[GitHub OAuth 2.0][github-oauth] is used to log the registered users in.
+This also means that ClassPortal does not need to use a first-party login system. Instead,
+[GitHub OAuth 2.0][github-oauth] is used to log the registered students in.
 
 <br>
 
@@ -81,81 +117,33 @@ This also means that ClassPortal does not need to use a first-party login system
 
 ###### GitHub OAuth 2.0 is used to log users into ClassPortal.
 
-<br>
-
-
-#### Core Functionality
-
-Common modules:
-* Registration
-* Login
-* Logout
-
-<br>
-
-Student portal modules:
-
-* CreateTeam (submit teammate names for team creation)
-* DisplayTeam (display team data: teammate names, GitHub usernames, etc)
-* Deliverables (view assignments and grades / comments)
-
-<br>
-
-Admin portal modules: 
-
-* AdminTeams (view all teams and associated data; assign grades for entire teams)
-* AdminStudents (view all students and associated data; assign grades for individual students)
-* AdminDeliverables (view all / upload new deliverables)
-* CreateTeam (create or disband teams)
-* CreateProject (create GitHub repos for teams)
-* UploadClasslist (upload new .csv classlist; update student database)
-
-<br>
-
-<img src="/classportal-delivs.png" />
-
-###### The student portal has a user/logout module, team module, and deliverables module.
-
 <hr>
 
 ### Back End
 
-#### Node.js + TypeScript
+#### Overview
 
-The server back-end is written in TypeScript and runs on Node.js.
-
-<br>
-
-#### REST API with Restify
-
-[Restify][restify] is a Node.js module and framework for building REST APIs. It is used
-in ClassPortal to build the REST API. Restify supports connect-style middleware chaining.
+The server back-end is written in TypeScript and runs on Node.js. [Restify][restify] is used
+to build ClassPortal's REST API - it is very similar to the ubiquitous Node.js module, Express.
 
 <br>
 
-#### REST Authentication
+#### Authentication
 
-Token-based authentication is used to implement the REST API.
+Token-based authentication is used to secure ClassPortal's API.
 
 <hr> 
 
 ### Future Work
 
-#### Modules
-
-More modules
-
-<br>
-
-#### React + ES6
-
-React
+* React: migrate to ES6 classes
+* Developer documentation for adding more modules
 
 <hr> 
 
 ### Links
 
-[GitHub][github] [UBC CPSC 310 ClassPortal][skaha] [UBC CPSC 310 GitHub][skaha] 
+[GitHub][github] [UBC CPSC 310 ClassPortal][skaha] [UBC CPSC 310 GitHub][cpsc310] 
 
 [reid]: <https://www.cs.ubc.ca/people/reid-holmes>
 [cpsc310]: <https://github.com/ubccpsc/310/tree/2016sept>
